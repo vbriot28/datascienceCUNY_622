@@ -23,7 +23,3 @@ WORKDIR usr/local/bin
 COPY ./src/pull_data.py .
 COPY ./src/train_model.py .
 COPY ./src/score_model.py .
-COPY ./src/scripts_ini.sh .
-
-#ENTRYPOINT ["/bin/sh", "./scripts_ini.sh"]
-#ENTRYPOINT ["python3"]
